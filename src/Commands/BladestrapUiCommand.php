@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Soap\BladestrapUi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BladestrapUiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'bladestrap-ui';
 
     public $description = 'My command';
 
