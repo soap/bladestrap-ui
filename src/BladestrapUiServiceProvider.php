@@ -2,9 +2,9 @@
 
 namespace Soap\BladestrapUi;
 
+use Soap\BladestrapUi\Commands\BladestrapUiCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Soap\BladestrapUi\Commands\BladestrapUiCommand;
 
 class BladestrapUiServiceProvider extends PackageServiceProvider
 {
