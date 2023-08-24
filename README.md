@@ -23,13 +23,6 @@ You can install the package via composer:
 composer require soap/bladestrap-ui
 ```
 
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="bladestrap-ui-migrations"
-php artisan migrate
-```
-
 You can publish the config file with:
 
 ```bash
@@ -52,8 +45,7 @@ php artisan vendor:publish --tag="bladestrap-ui-views"
 ## Usage
 
 ```php
-$bladestrapUi = new Soap\BladestrapUi();
-echo $bladestrapUi->echoPhrase('Hello, Soap!');
+
 ```
 
 ## Testing
