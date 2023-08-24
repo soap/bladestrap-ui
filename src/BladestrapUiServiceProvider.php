@@ -19,7 +19,6 @@ class BladestrapUiServiceProvider extends PackageServiceProvider
             ->name('bladestrap-ui')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_bladestrap-ui_table')
             ->hasCommand(BladestrapUiCommand::class);
     }
 }
